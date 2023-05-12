@@ -1598,7 +1598,7 @@ input[type="radio"] {
 
   .circle-section .bride {
     font-size: 30px;
-    transform: translate(-80px, -70px);
+    transform: translate(-70px, -100px);
   }
 
   .circle-section img {
@@ -1607,7 +1607,7 @@ input[type="radio"] {
 
   .circle-section .groom {
     font-size: 30px;
-    transform: translate(90px, 70px);
+    transform: translate(90px, 100px);
   }
 
   /* ------- quote section styles ------- */
