@@ -195,3 +195,68 @@ ScrollReveal().reveal(
   ".name-text2, .fullname2, .born-text2, .parent-text2, .plus-text2",
   { delay: 100, origin: "bottom", interval: 100 }
 );
+
+/* Set up the Intersection Observer */
+// const slideFromLeft = document.querySelectorAll('.slide-from-left');
+// const slideFromRight = document.querySelectorAll('.slide-from-right');
+// const slideFromTop = document.querySelectorAll('.slide-from-top');
+// const slideFromBottom = document.querySelectorAll('.slide-from-bottom');
+
+// const options = {
+//   rootMargin: '0px',
+//   threshold: 0.5
+// };
+
+// const observerLeft = new IntersectionObserver(function(entries, observer) {
+//   entries.forEach(entry => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('animate-slide-from-left');
+//       observer.unobserve(entry.target);
+//     }
+//   });
+// }, options);
+
+// const observerRight = new IntersectionObserver(function(entries, observer) {
+//   entries.forEach(entry => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('animate-slide-from-right');
+//       observer.unobserve(entry.target);
+//     }
+//   });
+// }, options);
+
+// const observerTop = new IntersectionObserver(function(entries, observer) {
+//   entries.forEach(entry => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('animate-slide-from-top');
+//       observer.unobserve(entry.target);
+//     }
+//   });
+// }, options);
+
+// const observerBottom = new IntersectionObserver(function(entries, observer) {
+//   entries.forEach(entry => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('animate-slide-from-bottom');
+//       observer.unobserve(entry.target);
+//     }
+//   });
+// }, options);
+
+// /* Add the class to the element when in view */
+// slideFromLeft.forEach(slide => {
+//   observerLeft.observe(slide);
+// });
+
+// slideFromRight.forEach(slide => {
+//   observerRight.observe(slide);
+// });
+
+// slideFromTop.forEach(slide => {
+//   observerTop.observe(slide);
+// });
+
+// slideFromBottom.forEach(slide => {
+//   observerBottom.observe(slide);
+// });
+
