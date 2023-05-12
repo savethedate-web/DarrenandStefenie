@@ -231,7 +231,7 @@ section {
   font-size: 60px;
   font-weight: bold;
   text-align: center;
-  margin: 10px 0 10px 0;
+  /* margin: 10px 0 10px 0; */
   color: #4D3B33;
   /* text-shadow: 2px 2px 5px #000; */
 }
@@ -346,7 +346,11 @@ section {
   font-size: 70px;
   font-weight: 600;
   transform: translate(-170px, -100px);
-  /* text-shadow: 2px 2px 10px #000; */
+  text-shadow: 2px 2px 10px #F9E8D9;
+  animation-name: slide-in;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+
 }
 
 .circle-section img {
@@ -366,7 +370,7 @@ section {
   font-size: 70px;
   font-weight: 600;
   transform: translate(150px, 100px);
-  /* text-shadow: 2px 2px 10px #000; */
+  text-shadow: 2px 2px 10px #F9E8D9;
 }
 
 /* ------- quote section styles ------- */
@@ -612,11 +616,6 @@ section {
   background: url(images/h2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-
-  /* border-style: solid;
-  border-width: 2px;
-  border-color: #d6982b; */
-  box-shadow: 0 0 30px 20px rgb(0 0 0 / 100%);
 }
 
 .midImage img {
@@ -727,7 +726,6 @@ section {
   border-style: solid;
   border-width: 2px;
   border-color: #4D3B33;
-  /* box-shadow: 0 0 30px rgb(214 173 96 / 30%); */
 }
 
 .schedule .content-area .content-overlay {
@@ -737,8 +735,6 @@ section {
   height: 100%;
   padding: 20px;
   border-radius: 30px;
-
-  /* background: rgba(0, 0, 0, 0.7); */
 }
 
 .schedule .content-area .content .top {
@@ -782,7 +778,7 @@ section {
 .rsvp {
   width: 100%;
   height: auto;
-  flex-direction: row;
+  flex-direction: column;
   padding: 50px 0 100px 0;
 }
 
@@ -795,21 +791,14 @@ section {
   border-style: solid;
   border-width: 2px;
   border-color: #4D3B33;
-  /* box-shadow: 0 0 30px rgb(214 173 96 / 30%); */
   margin: 20px;
   overflow: hidden;
-
-  /* background: url(images/SQ2.jpg) no-repeat; */
-  /* background-size: cover; */
-  /* background-position: center; */
 }
 
 .rsvp .content .rsvp-overlay {
   width: 100%;
   height: 100%;
   padding: 30px;
-
-  /* background: rgba(0, 0, 0, 0.7); */
 }
 
 .rsvp .title {
@@ -833,8 +822,8 @@ section {
   font-family: "Quicksand";
   font-size: 24px;
   text-align: center;
-  margin-bottom: 20px;
   color: #4D3B33;
+  text-decoration: none;
 }
 
 .rsvp .rsvpForm .formText {
@@ -1179,25 +1168,8 @@ input[type="radio"] {
 /* ------- last image section styles ------- */
 .lastImg-section {
   width: 100%;
-  height: 100vh;
   flex-direction: column;
-/* 
-  background: url(images/V8.jpg) no-repeat;
-  background-size: cover;
-  background-position: center; */
-
-  /* box-shadow: 0 0 30px 20px rgb(0 0 0 / 100%); */
-}
-
-.lastImg-section .top-overlay {
-  width: 100%;
-  height: 100px;
-
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
+  padding-bottom: 20px;
 }
 
 .lastImg-section .overlay {
@@ -1208,12 +1180,6 @@ input[type="radio"] {
   align-items: center;
   flex-direction: column;
   padding: 50px 0;
-
-  /* background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 100%
-  ); */
 }
 
 .lastImg-section .overlay .intro {
@@ -1239,17 +1205,14 @@ input[type="radio"] {
   height: auto;
   flex-direction: column;
   padding: 50px 0;
-
-  /* background: #000; */
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .footer .logo {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1261,7 +1224,7 @@ input[type="radio"] {
 
 .footer .developer {
   font-family: "Cinzel";
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   text-align: center;
   color: #4D3B33;
@@ -1274,7 +1237,6 @@ input[type="radio"] {
   }
 
   .main .content {
-    justify-content: space-around;
     padding: 0 0 0 0;
   }
 
@@ -1382,7 +1344,7 @@ input[type="radio"] {
 
   .circle-section .groom {
     font-size: 30px;
-    transform: translate(70px, 70px);
+    transform: translate(900px, 70px);
   }
 
   /* ------- quote section styles ------- */
@@ -1695,8 +1657,8 @@ input[type="radio"] {
   /* ------- last image section styles ------- */
   .lastImg-section {
     width: 100%;
-    height: 60vh;
     flex-direction: column;
+    padding-bottom: 50px;
   }
 
   .lastImg-section .overlay {
@@ -1707,12 +1669,6 @@ input[type="radio"] {
     align-items: center;
     flex-direction: column;
     padding: 0 0;
-
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 1) 100%
-    );
   }
 
   .lastImg-section .overlay .intro {
@@ -1731,17 +1687,14 @@ input[type="radio"] {
     height: auto;
     flex-direction: column;
     padding: 10px 0;
-
-    background: #000;
-
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .footer .logo {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1752,7 +1705,7 @@ input[type="radio"] {
   }
 
   .footer .developer {
-    font-size: 8px;
+    font-size: 12px;
     margin: 10px 0;
   }
 }
