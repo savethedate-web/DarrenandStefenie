@@ -157,41 +157,41 @@ $(document).ready(function () {
 
 //Javascript for reveal transition
 //common reveal options to create reveal animations
-ScrollReveal({
-  reset: false,
-  duration: 2000,
-  delay: 400,
-  distance: "60px",
-});
+// ScrollReveal({
+//   reset: false,
+//   duration: 2000,
+//   delay: 400,
+//   distance: "60px",
+// });
 
-ScrollReveal().reveal(
-  ".countdownContainer, .imgCircle, .quote, .gospel, .logo, .title-area, .iframe-container, .hashtag, .names, .wishes",
-  {
-    scale: 0.1,
-    delay: 100,
-    interval: 200,
-  }
-);
+// ScrollReveal().reveal(
+//   ".countdownContainer, .imgCircle, .quote, .gospel, .logo, .title-area, .iframe-container, .hashtag, .names, .wishes",
+//   {
+//     scale: 0.1,
+//     delay: 100,
+//     interval: 200,
+//   }
+// );
 
-ScrollReveal().reveal(
-  ".bride, .groom, .mass, .mogongoi, .rsvp-content, .chineseTea, .reception, .content-wish-container",
-  {
-    delay: 100,
-    interval: 100,
-    scale: 0.1,
-    rotate: {
-      x: 200,
-      z: 200,
-    },
-  }
-);
+// ScrollReveal().reveal(
+//   ".bride, .groom, .mass, .mogongoi, .rsvp-content, .chineseTea, .reception, .content-wish-container",
+//   {
+//     delay: 100,
+//     interval: 100,
+//     scale: 0.1,
+//     rotate: {
+//       x: 200,
+//       z: 200,
+//     },
+//   }
+// );
 
-ScrollReveal().reveal(
-  ".top-text, .photo, .name-text1, .fullname1, .born-text1, .parent-text1, .plus-text1, .bottom-text, .midImage, .video-text, .gift-content",
-  { delay: 100, origin: "bottom", interval: 100 }
-);
+// ScrollReveal().reveal(
+//   ".top-text, .photo, .name-text1, .fullname1, .born-text1, .parent-text1, .plus-text1, .bottom-text, .midImage, .video-text, .gift-content",
+//   { delay: 100, origin: "bottom", interval: 100 }
+// );
 
-ScrollReveal().reveal(
-  ".name-text2, .fullname2, .born-text2, .parent-text2, .plus-text2",
-  { delay: 100, origin: "bottom", interval: 100 }
-);
+// ScrollReveal().reveal(
+//   ".name-text2, .fullname2, .born-text2, .parent-text2, .plus-text2",
+//   { delay: 100, origin: "bottom", interval: 100 }
+// );
