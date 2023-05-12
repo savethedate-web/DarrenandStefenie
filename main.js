@@ -179,10 +179,10 @@ ScrollReveal().reveal(
     delay: 100,
     interval: 100,
     scale: 0.1,
-    rotate: {
-      x: 200,
-      z: 200,
-    },
+    // rotate: {
+    //   x: 200,
+    //   z: 200,
+    // },
   }
 );
 
