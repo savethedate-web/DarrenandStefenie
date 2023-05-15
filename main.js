@@ -108,29 +108,29 @@ function radio2() {
   document.getElementById("guest5").style.display = "none";
 }
 
-// function radio3() {
-//   document.getElementById("guest1").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest2").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest3").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest4").style.display = "none";
-//   document.getElementById("guest5").style.display = "none";
-// }
+function radio3() {
+  document.getElementById("guest1").style = "display: inline; margin-top:10px";
+  document.getElementById("guest2").style = "display: inline; margin-top:10px";
+  document.getElementById("guest3").style = "display: inline; margin-top:10px";
+  document.getElementById("guest4").style.display = "none";
+  document.getElementById("guest5").style.display = "none";
+}
 
-// function radio4() {
-//   document.getElementById("guest1").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest2").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest3").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest4").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest5").style.display = "none";
-// }
+function radio4() {
+  document.getElementById("guest1").style = "display: inline; margin-top:10px";
+  document.getElementById("guest2").style = "display: inline; margin-top:10px";
+  document.getElementById("guest3").style = "display: inline; margin-top:10px";
+  document.getElementById("guest4").style = "display: inline; margin-top:10px";
+  document.getElementById("guest5").style.display = "none";
+}
 
-// function radio5() {
-//   document.getElementById("guest1").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest2").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest3").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest4").style = "display: inline; margin-top:10px";
-//   document.getElementById("guest5").style = "display: inline; margin-top:10px";
-// }
+function radio5() {
+  document.getElementById("guest1").style = "display: inline; margin-top:10px";
+  document.getElementById("guest2").style = "display: inline; margin-top:10px";
+  document.getElementById("guest3").style = "display: inline; margin-top:10px";
+  document.getElementById("guest4").style = "display: inline; margin-top:10px";
+  document.getElementById("guest5").style = "display: inline; margin-top:10px";
+}
 
 //show bank number
 function showCard() {
@@ -165,11 +165,20 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal(
-  ".countdownContainer, .imgCircle, .quote, .gospel, .logo, .title-area, .iframe-container, .hashtag, .names, .wishes",
+  ".countdownContainer, .imgCircle, .quote, .gospel, .logo, .title-area, .iframe-container, .hashtag",
   {
     scale: 0.1,
     delay: 100,
-    interval: 200,
+    interval: 100,
+  }
+);
+
+ScrollReveal().reveal(
+  ".names, .wishes",
+  {
+    scale: 0.1,
+    delay: 100,
+    // interval: 200,
   }
 );
 
@@ -179,10 +188,6 @@ ScrollReveal().reveal(
     delay: 100,
     interval: 100,
     scale: 0.1,
-    // rotate: {
-    //   x: 200,
-    //   z: 200,
-    // },
   }
 );
 

@@ -116,11 +116,11 @@ section {
 /*=======Scroll bar=======*/
 ::-webkit-scrollbar {
   width: 10px;
-  background: #1b1b1b;
+  background: #F9E8D9;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d49d40;
+  background: #4D3B33;
   border-radius: 2em;
 }
 
@@ -345,7 +345,7 @@ section {
   font-family: "Melinda";
   font-size: 70px;
   font-weight: 600;
-  transform: translate(-170px, -100px);
+  transform: translate(-170px, -170px);
   text-shadow: 2px 2px 10px #F9E8D9;
 }
 
@@ -365,7 +365,7 @@ section {
   font-family: "Melinda";
   font-size: 70px;
   font-weight: 600;
-  transform: translate(150px, 100px);
+  transform: translate(150px, 170px);
   text-shadow: 2px 2px 10px #F9E8D9;
 }
 
@@ -399,8 +399,8 @@ section {
 }
 
 .quote-section .logo {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -601,7 +601,7 @@ section {
   line-height: 27px;
   font-weight: 400;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 120px;
   color: #4D3B33;
 }
 
@@ -782,7 +782,7 @@ section {
 .rsvp {
   width: 100%;
   height: auto;
-  flex-direction: column;
+  flex-direction: row;
   padding: 50px 0 100px 0;
 }
 
@@ -836,6 +836,7 @@ section {
   text-align: center;
   margin-bottom: 20px;
   color: #4D3B33;
+  text-decoration: none;
 }
 
 .rsvp .rsvpForm .formText {
@@ -882,7 +883,7 @@ input[type="radio"] {
   border-radius: 10px;
   padding: 5px;
   border-style: solid;
-  border-color: #eca241;
+  border-color: #4D3B33;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
@@ -893,7 +894,7 @@ input[type="radio"] {
 
 .rsvp .rsvpForm textarea:focus {
   border-style: ridge;
-  border-color: #eca241 !important;
+  border-color: #4D3B33 !important;
 }
 
 .rsvp .rsvpForm .inputSend {
@@ -904,19 +905,19 @@ input[type="radio"] {
   border-radius: 10px;
   padding: 5px;
   border-style: solid;
-  border-color: #eca241;
+  border-color: #4D3B33;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
   color: #fff;
   text-shadow: 1px 1px 3px #000;
-  background: #d6982b;
+  background: #4D3B33;
   margin: 5px 0 0 0;
 }
 
 .rsvp .rsvpForm .inputSend:focus {
   border-style: ridge;
-  border-color: #eca241 !important;
+  border-color: #4D3B33 !important;
 }
 
 .rsvp .content-wish-container {
@@ -928,14 +929,14 @@ input[type="radio"] {
   border-radius: 30px;
   border-style: solid;
   border-width: 2px;
-  border-color: #d6ad60;
+  border-color: #4D3B33;
   box-shadow: 0 0 30px rgb(214 173 96 / 30%);
   margin: 20px;
   overflow: hidden;
-
+/* 
   background: url(images/V9.jpg) no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 
 .rsvp .content-wish-container .wish-overlay {
@@ -952,7 +953,7 @@ input[type="radio"] {
   font-weight: 400;
   text-align: center;
   margin-bottom: 20px;
-  color: #eca241;
+  color: #4D3B33;
   height: 10%;
 }
 
@@ -976,7 +977,7 @@ input[type="radio"] {
   border-radius: 30px;
   border-style: solid;
   border-width: 2px;
-  border-color: #d6ad60;
+  border-color: #4D3B33;
   box-shadow: 0 0 30px rgb(214 173 96 / 30%);
 }
 
@@ -986,7 +987,7 @@ input[type="radio"] {
   font-weight: 400;
   text-align: center;
   margin-bottom: 20px;
-  color: #eca241;
+  color: #4D3B33;
 }
 
 .gift .gift-content p {
@@ -995,7 +996,7 @@ input[type="radio"] {
   line-height: 26px;
   text-align: center;
   margin-bottom: 30px;
-  color: #d6ad60;
+  color: #4D3B33;
 }
 
 .gift .gift-content button {
@@ -1003,13 +1004,13 @@ input[type="radio"] {
   font-size: 20px;
   text-align: center;
   margin-bottom: 30px;
-  color: #d6ad60;
+  color: #4D3B33;
   cursor: pointer;
 
   border-radius: 10px;
   padding: 10px;
   border-style: solid;
-  border-color: #eca241;
+  border-color: #4D3B33;
   background: rgba(0, 0, 0, 0);
 }
 
@@ -1023,7 +1024,7 @@ input[type="radio"] {
   flex-direction: column;
 
   border-style: solid;
-  border-color: #eca241;
+  border-color: #4D3B33;
 }
 
 .cardContainer .bankName {
@@ -1033,7 +1034,7 @@ input[type="radio"] {
   line-height: 34px;
   text-align: center;
   margin-bottom: 20px;
-  color: #d6ad60;
+  color: #4D3B33;
 }
 
 .cardContainer .bankNo {
@@ -1043,7 +1044,7 @@ input[type="radio"] {
   font-weight: 500;
   text-align: center;
   margin-bottom: 20px;
-  color: #d6ad60;
+  color: #4D3B33;
 }
 
 .cardContainer .name {
@@ -1053,7 +1054,7 @@ input[type="radio"] {
   font-weight: 500;
   text-align: center;
   margin-bottom: 20px;
-  color: #d6ad60;
+  color: #4D3B33;
 }
 
 .cardContainer .copyButton {
@@ -1061,13 +1062,13 @@ input[type="radio"] {
   font-size: 20px;
   line-height: 22px;
   text-align: center;
-  color: #d6ad60;
+  color: #4D3B33;
   cursor: pointer;
 
   border-radius: 10px;
   padding: 10px;
   border-style: ridge;
-  border-color: #eca241;
+  border-color: #4D3B33;
 }
 
 /* ------- gallery section styles ------- */
@@ -1194,11 +1195,11 @@ input[type="radio"] {
   width: 100%;
   height: 100px;
 
-  background: linear-gradient(
+  /* background: linear-gradient(
     to top,
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 1) 100%
-  );
+  ); */
 }
 
 .lastImg-section .overlay {
@@ -1228,7 +1229,7 @@ input[type="radio"] {
 
 .lastImg-section .overlay .names {
   font-family: "Melinda";
-  font-size: 32px;
+  font-size: 52px;
   font-weight: bold;
   text-align: center;
   color: #4D3B33;
@@ -1248,7 +1249,7 @@ input[type="radio"] {
   align-items: center;
 }
 
-.footer .logo {
+.footer .logos {
   width: 100px;
   height: 100px;
   display: flex;
@@ -1256,16 +1257,17 @@ input[type="radio"] {
   align-items: center;
 }
 
-.footer .logo img {
+.footer .logos img {
   width: 100%;
 }
 
 .footer .developer {
   font-family: "Cinzel";
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   color: #4D3B33;
+  text-shadow: 2px 2px 10px #F9E8D9;
 }
 
 /* Transition/Animation */
@@ -1616,17 +1618,17 @@ input[type="radio"] {
   }
 
   .quote-section .quote {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .quote-section .gospel {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 10px;
   }
 
   .quote-section .logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-top: 20px;
   }
 
@@ -1734,7 +1736,7 @@ input[type="radio"] {
   .wedding-card .bottom-text {
     font-size: 16px;
     line-height: 18px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 20px;
     padding: 0 20px 0 20px;
   }
@@ -1947,7 +1949,7 @@ input[type="radio"] {
 
   .lastImg-section .overlay .names {
     font-family: "Melinda";
-    font-size: 20px;
+    font-size: 30px;
   }
 
   /* ------- footer section styles ------- */
@@ -1961,7 +1963,7 @@ input[type="radio"] {
     align-items: center;
   }
 
-  .footer .logo {
+  .footer .logos {
     width: 50px;
     height: 50px;
     display: flex;
@@ -1969,12 +1971,12 @@ input[type="radio"] {
     align-items: center;
   }
 
-  .footer .logo img {
+  .footer .logos img {
     width: 100%;
   }
 
   .footer .developer {
-    font-size: 12px;
-    margin: 10px 0;
+    font-size: 15px;
+    /* margin: 10px 0; */
   }
 }
