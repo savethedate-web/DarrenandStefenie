@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
                 $stmt->close();
 
                 $stmt = $conn->prepare($Insert);
-                $stmt->bind_param("sisissssss", $username, $phone, $attend, $totalAttend, $guest1, $guest2, $guest2, $guest4, $guest5, $wish);
+                $stmt->bind_param("sisissssss", $username, $phone, $attend, $totalAttend, $guest1, $guest2, $guest3, $guest4, $guest5, $wish);
                 if ($stmt->execute()) {
                     echo "New record inserted sucessfully.";
                 }

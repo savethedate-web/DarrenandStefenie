@@ -203,6 +203,7 @@
         <div class="title-area">
             <h1>Our Wedding Tentative</h1>
 
+            <h2>Bride's Side</h2>
             <h2>SATURDAY, MAY 27, 2023</h2>
 
         </div>
@@ -302,6 +303,58 @@
                 </div>
             </div>
         </div>
+
+        <div class="title-area">
+            <h1></h1>
+
+            <h2>Groom's Side</h2>
+            <h2>SATURDAY, JUNE 3, 2023</h2>
+        </div>
+        <div class="content-area">
+        <div class="content reception">
+                <div class="content-overlay">
+                    <div class="top">
+                        <p class="title">WEDDING RECEPTION</p>
+                        <p class="title"><i class="fas fa-clock"></i> 4:00pm</p>
+                        <p>
+                            <i class="fas fa-landmark"></i>
+                            </i> Kg Pasir Putih, Keningau, Sabah.</p>
+                        <p>
+                            <i class="fas fa-glass-cheers"></i> 
+                            Join us in celebrating the groom's side at our joyous wedding reception! Come relish in dinner, drinks, and dancing with cherished family and friends, near and far.
+                        </p>
+                        <!-- <p><i class="fas fa-tshirt"></i> Dress Code: Modern Traditional Attire (Black with gold lace)</p> -->
+                        <!-- fas fa-wine-bottle -->
+                        <!-- fas fa-glass-cheers -->
+                        <p class="title">R.S.V.P</p>
+                        <div style="display: flex; align-items: center; justify-content: center;"> 
+                            <a class="text2" href="https://wa.me/601155567074">
+                                <i class="fab fa-whatsapp" style="font-size:18px; margin-right: 10px; color:#4D3B33;"></i>
+                            </a>
+                            <a class="text2" href="tel:+601155567074">
+                                <i class="fas fa-phone-alt" style="font-size:14px; margin-right: 10px; color:#4D3B33;"></i>
+                            </a>
+                            <p class="text2">Darren: 011 5556 7074 </p>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+                            <a class="text2" href="https://wa.me/60198309669">
+                                <i class="fab fa-whatsapp" style="font-size:18px; margin-right: 10px; color:#4D3B33;"></i>
+                            </a>
+                            <a class="text2" href="tel:+60198309669">
+                                <i class="fas fa-phone-alt" style="font-size:14px; margin-right: 10px; color:#4D3B33;"></i> 
+                            </a>
+                            <p class="text2">Helen Victor: 019 830 9669</p>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3972.3132492239592!2d116.16621007389517!3d5.369105335503035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMjInMDguOCJOIDExNsKwMTAnMDcuNiJF!5e0!3m2!1sen!2smy!4v1684338356394!5m2!1sen!2smy"
+                            width="100%" height="100%" style="border:0; border-radius: 10px;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <iframe name="hiddenFrame" class="hide"></iframe>
@@ -315,10 +368,10 @@
                 <div style="display: flex; align-items: center; justify-content: center;"> 
                     <p class="text2">Darren: 011 5556 7074 </p>
                     <a class="text2" href="https://wa.me/601155567074">
-                        <i class="fab fa-whatsapp" style="font-size:26px; margin-left: 10px;"></i>
+                        <i class="fab fa-whatsapp" style="font-size:26px; margin-left: 10px; color:#4D3B33;"></i>
                     </a>
                     <a class="text2" href="tel:+601155567074">
-                        <i class="fas fa-phone-alt" style="font-size:22px; margin-left: 10px;"></i>
+                        <i class="fas fa-phone-alt" style="font-size:22px; margin-left: 10px; color:#4D3B33;"></i>
                     </a>
                 </div>
                 <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
